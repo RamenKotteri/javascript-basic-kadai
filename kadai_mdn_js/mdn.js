@@ -5,4 +5,4 @@ const [month, day, year] = [
   date.getFullYear(),
 ];
 let m= date.getMonth()+1;
-console.log(date.getFullYear(), m, date.getDate());
+console.log(date.getFullYear()+"年" +m+"月" +date.getDate()+"日");
